@@ -1,0 +1,368 @@
+<div className="wrapper">
+<div className="left">
+  <div className="box ">
+    <FlipElement
+      isFlipped={this.state.isFlipped1}
+      frontComponent={
+        <img
+          className="child"
+          onClick={() => {
+            this.handleClick(1)
+          }}
+          src={require('./assets/images/black.png')}
+        />
+      }
+      backComponent={
+        <img
+          className="child"
+          onClick={() => {
+            this.handleClick(1)
+          }}
+          src={require('./assets/images/1.jpg')}
+        />
+      }
+    />
+  </div>
+  <div className="box zac ">
+    <FlipElement
+      isFlipped={this.state.isFlipped2}
+      frontComponent={
+        <img
+          className="child"
+          onClick={() => {
+            this.handleClick(2)
+          }}
+          src={require('./assets/images/lightgrey.png')}
+        />
+      }
+      backComponent={
+        <img
+          className="child"
+          onClick={() => {
+            this.handleClick(2)
+          }}
+          src={require('./assets/images/2.jpg')}
+        />
+      }
+    />
+  </div>
+  <div className="box ">
+    <FlipElement
+      isFlipped={this.state.isFlipped3}
+      frontComponent={
+        <img
+          className="child"
+          onClick={() => {
+            this.handleClick(3)
+          }}
+          src={require('./assets/images/darkred.png')}
+        />
+      }
+      backComponent={
+        <img
+          className="child"
+          onClick={() => {
+            this.handleClick(3)
+          }}
+          src={require('./assets/images/3.jpg')}
+        />
+      }
+    />
+  </div>
+  <div className="box zac ">
+    <FlipElement
+      isFlipped={this.state.isFlipped4}
+      frontComponent={
+        <img
+          className="child"
+          onClick={() => {
+            this.handleClick(4)
+          }}
+          src={require('./assets/images/gray.png')}
+        />
+      }
+      backComponent={
+        <img
+          className="child"
+          onClick={() => {
+            this.handleClick(4)
+          }}
+          src={require('./assets/images/4.jpg')}
+        />
+      }
+    />
+  </div>
+</div>
+{/* HERO SECTION - RIGHT  */}
+<div className="right">
+  <h1>
+    re<span>-</span>
+    <br />
+    invent
+  </h1>
+  <h5>yourself</h5>
+  <p className="font-sm font-gray">
+    The day you walk into Work Hall, you're going to notice the
+    energy level and come to realize that this is different, and
+    you'll never want to work in a regular office again. Our
+    calculated designs create an environment of productivity and
+    collaboration.
+  </p>
+
+  <div className="button-area">
+    <a
+      className="button primary btn"
+      onClick={() => {
+        this.setState({ bookATour: !this.state.bookATour })
+      }}
+    >
+      BOOK A TOUR
+    </a>
+  </div>
+</div>
+</div>
+
+<div className="wrapper">
+<div className="left">
+  <div className="box ">
+    <FlipElement
+      isFlipped={this.state.isFlipped1}
+      frontComponent={
+        <img
+          className="child"
+          onClick={() => {
+            this.handleClick(1)
+          }}
+          src={require('./assets/images/black.png')}
+        />
+      }
+      backComponent={
+        <img
+          className="child"
+          onClick={() => {
+            this.handleClick(1)
+          }}
+          src={require('./assets/images/1.jpg')}
+        />
+      }
+    />
+  </div>
+  <div className="box zac ">
+    <FlipElement
+      isFlipped={this.state.isFlipped2}
+      frontComponent={
+        <img
+          className="child"
+          onClick={() => {
+            this.handleClick(2)
+          }}
+          src={require('./assets/images/lightgrey.png')}
+        />
+      }
+      backComponent={
+        <img
+          className="child"
+          onClick={() => {
+            this.handleClick(2)
+          }}
+          src={require('./assets/images/2.jpg')}
+        />
+      }
+    />
+  </div>
+  <div className="box ">
+    <FlipElement
+      isFlipped={this.state.isFlipped3}
+      frontComponent={
+        <img
+          className="child"
+          onClick={() => {
+            this.handleClick(3)
+          }}
+          src={require('./assets/images/darkred.png')}
+        />
+      }
+      backComponent={
+        <img
+          className="child"
+          onClick={() => {
+            this.handleClick(3)
+          }}
+          src={require('./assets/images/3.jpg')}
+        />
+      }
+    />
+  </div>
+  <div className="box zac ">
+    <FlipElement
+      isFlipped={this.state.isFlipped4}
+      frontComponent={
+        <img
+          className="child"
+          onClick={() => {
+            this.handleClick(4)
+          }}
+          src={require('./assets/images/gray.png')}
+        />
+      }
+      backComponent={
+        <img
+          className="child"
+          onClick={() => {
+            this.handleClick(4)
+          }}
+          src={require('./assets/images/4.jpg')}
+        />
+      }
+    />
+  </div>
+</div>
+{/* HERO SECTION - RIGHT   */}
+<div className="right">
+  <h1>
+    re<span>-</span>
+    <br />
+    build
+  </h1>
+  <h5>your dream</h5>
+  <p className="font-sm font-gray">
+    We are on a mission to make people love coming to work every
+    day. We do this by bolstering their spirits and by helping
+    them in any way we can, so they can shoot for the stars.
+  </p>
+
+  <div className="button-area">
+    <a
+      className="button primary btn"
+      onClick={() => {
+        this.setState({ bookATour: !this.state.bookATour })
+      }}
+    >
+      BOOK A TOUR
+    </a>
+  </div>
+</div>
+</div>
+
+{/* <div className="wrapper">
+{/*  HERO SECTION - LEFT  
+<div className="left">
+<div className="box ">
+  <FlipElement
+    isFlipped={this.state.isFlipped1}
+    frontComponent={
+      <img
+        className="child"
+        onClick={() => {
+          this.handleClick(1);
+        }}
+        src={require("./assets/images/black.png")}
+      />
+    }
+    backComponent={
+      <img
+        className="child"
+        onClick={() => {
+          this.handleClick(1);
+        }}
+        src={require("./assets/images/1.jpg")}
+      />
+    }
+  />
+</div>
+<div className="box zac ">
+  <FlipElement
+    isFlipped={this.state.isFlipped2}
+    frontComponent={
+      <img
+        className="child"
+        onClick={() => {
+          this.handleClick(2);
+        }}
+        src={require("./assets/images/lightgrey.png")}
+      />
+    }
+    backComponent={
+      <img
+        className="child"
+        onClick={() => {
+          this.handleClick(2);
+        }}
+        src={require("./assets/images/2.jpg")}
+      />
+    }
+  />
+</div>
+<div className="box ">
+  <FlipElement
+    isFlipped={this.state.isFlipped3}
+    frontComponent={
+      <img
+        className="child"
+        onClick={() => {
+          this.handleClick(3);
+        }}
+        src={require("./assets/images/darkred.png")}
+      />
+    }
+    backComponent={
+      <img
+        className="child"
+        onClick={() => {
+          this.handleClick(3);
+        }}
+        src={require("./assets/images/3.jpg")}
+      />
+    }
+  />
+</div>
+<div className="box zac ">
+  <FlipElement
+    isFlipped={this.state.isFlipped4}
+    frontComponent={
+      <img
+        className="child"
+        onClick={() => {
+          this.handleClick(4);
+        }}
+        src={require("./assets/images/gray.png")}
+      />
+    }
+    backComponent={
+      <img
+        className="child"
+        onClick={() => {
+          this.handleClick(4);
+        }}
+        src={require("./assets/images/4.jpg")}
+      />
+    }
+  />
+</div>
+</div>
+<div className="right">
+<h1>
+  re<span>-</span>
+  <br />
+  think
+</h1>
+<h5>your workspace</h5>
+<p className="font-sm font-gray">
+  We design spaces that help you do your life’s best work. Whether
+  you need a shared work space or a private office suite, we
+  create uplifting environments that increase productivity and
+  encourage collaboration.
+</p>
+
+<div className="button-area">
+  <a
+    className="button primary btn"
+    onClick={() => {
+      this.setState({ bookATour: !this.state.bookATour });
+    }}
+  >
+    BOOK A TOUR
+  </a>
+</div>
+</div>
+</div> */}

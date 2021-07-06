@@ -1,0 +1,256 @@
+/* INTRO SECTION */
+
+.span-red {
+  font-weight: bold !important;
+}
+
+.intro-section {
+  margin: 70px auto !important;
+  width: 100%;
+}
+
+.intro-section .top-area {
+  display: flex;
+  position: relative;
+}
+
+.intro-section .title-area {
+  /* z-index: -12;
+  position: relative; */
+  flex: 1;
+}
+
+.intro-section .title-area h1 {
+  font-size: 130px;
+}
+
+.intro-section .title-area h5 {
+  letter-spacing: 35px;
+  font-size: 20px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 430px) {
+  .intro-section .title-area h1 {
+    font-size: 40px !important;
+    /* text-align: center; */
+  }
+  .intro-section .title-area h5 {
+    left: 25px;
+    position: relative;
+  }
+  .top-area {
+    margin: inherit !important;
+  }
+  .content-area .img-area {
+    background-blend-mode: overlay;
+    background-attachment: fixed;
+    background-image: url("../images/CEO.jpg") !important;
+
+    z-index: -1;
+    opacity: 0.7;
+    margin: 0px 20px 40px !important;
+    width: 90% !important;
+    height: 100%;
+  }
+
+  .content-area p {
+    padding: 0px !important;
+    margin: 10px !important;
+    text-align: justify;
+  }
+  .missiontext {
+    font-size: 15px !important;
+    text-align: justify !important;
+    width: 95%;
+    margin: 10px 10px;
+  }
+}
+
+@media screen and (min-width: 430px) and (max-width: 768px) {
+  .intro-section .title-area h1 {
+    font-size: 90px !important;
+    text-align: center;
+  }
+  .intro-section .title-area h5 {
+    left: 25px;
+    position: relative;
+  }
+  .top-area {
+    margin: inherit !important;
+  }
+  .content-area .img-area {
+    background-blend-mode: overlay;
+    background-attachment: fixed;
+    background-image: url("../images/CEO.jpg") !important;
+
+    z-index: -1;
+    opacity: 0.7;
+    margin: 0px 20px 40px !important;
+    width: 90% !important;
+    height: 100%;
+  }
+
+  .content-area p {
+    padding: 0px !important;
+    margin: 10px !important;
+    text-align: justify;
+  }
+
+  .missiontext {
+    font-size: 15px !important;
+    text-align: justify !important;
+    width: 95%;
+    margin: 10px 10px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .intro-section .title-area h1 {
+    font-size: 90px !important;
+    text-align: center;
+  }
+  .intro-section .title-area h5 {
+    left: 25px;
+    position: relative;
+  }
+  .top-area {
+    margin: inherit !important;
+  }
+  .content-area .img-area {
+    background-blend-mode: overlay;
+    background-attachment: fixed;
+    background-image: url("../images/CEO.jpg") !important;
+
+    z-index: -1;
+    opacity: 0.7;
+    margin: 0px 20px 40px !important;
+    width: 90% !important;
+    height: 100%;
+  }
+
+  .content-area p {
+    padding: 0px !important;
+    margin: 10px !important;
+    text-align: justify;
+  }
+
+  .missiontext {
+    font-size: 17px !important;
+    text-align: justify !important;
+    width: 95%;
+    margin: 10px 10px;
+  }
+}
+
+@media screen and (min-width: 1104px) {
+  .content-area .img-area {
+    background-blend-mode: overlay;
+    background-attachment: fixed;
+    background-image: url("../images/CEO1.png") !important;
+
+    z-index: -1;
+    opacity: 0.7;
+    margin: 0px 100px 40px !important;
+    width: 90% !important;
+  }
+}
+
+.intro-section .title-area > * {
+  margin: 20px 0;
+  /* padding-right: 370px; */
+  box-sizing: border-box;
+  text-align: left;
+}
+
+.intro-section .img-area {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("../images/CEO1.png");
+  float: right;
+  flex: auto;
+  /* position: absolute; */
+  overflow: hidden;
+  border-radius: 20px;
+  width: 360px;
+  height: 625px;
+}
+
+/* .intro-section .img-area-sm {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("../images/CEO1.png") !important;
+  float: right;
+  flex: auto;
+  overflow: hidden;
+  border-radius: 20px;
+  width: 260px;
+  height: 425px;
+} */
+
+.intro-section .content-area {
+  /* float: left; */
+  box-sizing: border-box;
+  max-width: 100%;
+  border-radius: 20px;
+  padding: 35px 0px;
+  /* border: 2px solid #e5e6e8; */
+}
+
+.intro-section .content-area p {
+  margin-bottom: 40px;
+}
+
+.intro-section p {
+  padding-right: 110px;
+}
+@media only screen and (max-width: 600px) {
+  .intro-section .content-area p {
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+  .missiontext {
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+}
+
+.intro-section .btn-area {
+  width: 90%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* SLIDER SECTION */
+
+.slider-section {
+  /* background-color: red; */
+  margin: auto auto 120px auto;
+  height: fit-content;
+}
+
+.slider-section-content {
+  text-align: center;
+}
+
+.slider-section-content h1 {
+  font-weight: bold;
+  font-size: 108px;
+}
+
+@media screen and (max-width: 786px) {
+  .slider-section-content h1 p {
+    /* font-weight: bold; */
+    font-size: 80px !important;
+  }
+}
+/* RAINBOW DIVIDER */
+
+.rainbow-divider {
+  height: 15px;
+  width: 100%;
+  background-image: linear-gradient(to right, #65278a, #f25c43, #f8901f);
+}
+.span-e {
+  font-weight: bold !important;
+  /* font-size: 100px; */
+}

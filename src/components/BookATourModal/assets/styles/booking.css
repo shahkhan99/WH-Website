@@ -1,0 +1,303 @@
+@font-face {
+  font-family: "Autumn in November";
+  src: url("../fonts/Autumn in November.ttf");
+}
+
+@font-face {
+  font-family: "AvenirNextLTPro-It";
+  src: url("../fonts//AvenirNextLTPro-It.otf");
+}
+
+.modal-background {
+  /* border: 1px solid firebrick; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.modal-gradient-background {
+  background: linear-gradient(to right, #5d2980, #eb9840, #eb9840, #eb9840);
+  padding: 5px;
+  width: 500px;
+  border-radius: 15px;
+  overflow: scroll;
+  margin: 20px;
+  height: 75%;
+}
+.modal-gradient-background::-webkit-scrollbar {
+  display: none;
+}
+.modal-div {
+  background-color: white;
+  border-radius: 15px;
+  padding: 10px;
+  display: flex;
+  border: 1px solid red;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.modal-head {
+  display: inline-block;
+  /* padding: 10px; */
+  justify-content: space-between;
+  align-items: center;
+}
+.modal-head > p {
+  font-family: "Autumn in November";
+  /* align-self: center; */
+  font-size: 30px;
+}
+.close-btn {
+  /* width: 50px; */
+  /* height: 50px; */
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.close-btn > img {
+  /* width: 30px; */
+  /* width: 100%; */
+  /* height: ; */
+}
+/* .name-div{
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+} */
+.my-modal-content {
+  /* margin: 10px; */
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 90%;
+}
+.modalr1,
+.modalr2,
+.modalr3,
+.modalr4,
+.modalr5,
+.modalr6 {
+  display: flex;
+  flex-direction: column;
+}
+
+.modalr6 p {
+  font-size: 12px;
+  /* margin-top: 10px; */
+  display: flex;
+  align-items: flex-start;
+  text-align: justify;
+}
+
+.modalr2,
+.modalr3,
+.modalr4,
+.modalr5,
+.modalr6,
+.modalr7 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  color: #818284;
+}
+
+[type$="text"],
+[type$="email"],
+[type$="date"],
+[type$="time"] {
+  height: 25px;
+  width: 190px;
+  /* margin-top: 10px; */
+  margin-right: 5px;
+  margin-bottom: 15px;
+  background-color: #dbdbdb;
+  border: none;
+  padding: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#Locations,
+#Plans {
+  height: 25px;
+  width: 190px;
+  margin-top: 0px;
+  margin-right: 5px;
+  margin-bottom: 15px;
+  background-color: #dbdbdb;
+  border: none;
+  padding: 5px;
+  color: #818284;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.modalr7 {
+  display: flex;
+  justify-content: center;
+}
+
+/*Base for label styling */
+[type="checkbox"]:not(:checked),
+[type="checkbox"]:checked {
+  position: absolute;
+  left: -9999px;
+}
+[type="checkbox"]:not(:checked) + label,
+[type="checkbox"]:checked + label {
+  position: relative;
+  padding-left: 3em;
+  cursor: pointer;
+}
+
+label {
+  width: 85%;
+}
+
+/* checkbox aspect */
+[type="checkbox"]:not(:checked) + label:before,
+[type="checkbox"]:checked + label:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 1.25em;
+  height: 1.25em;
+  border: 2px solid #ccc;
+  background: #fff;
+  border-radius: 4px;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+  background-color: #97b2bf;
+}
+/* checked mark aspect */
+[type="checkbox"]:not(:checked) + label:after,
+[type="checkbox"]:checked + label:after {
+  content: "\2713\0020";
+  position: absolute;
+  top: -0.11em;
+  left: -0.12em;
+  font-size: 1.3em;
+  /* line-height: 0.8; */
+  color: white;
+  margin-right: 20px;
+  background-color: #eb9840;
+  border: unset;
+  border: 5px solid #eb9840;
+  border-radius: 5px;
+  transition: all 0.2s;
+  font-family: "Lucida Sans Unicode", "Arial Unicode MS", Arial;
+}
+/* checked mark aspect changes */
+[type="checkbox"]:not(:checked) + label:after {
+  opacity: 0;
+  transform: scale(0);
+}
+[type="checkbox"]:checked + label:after {
+  opacity: 1;
+  transform: scale(1);
+}
+
+/* accessibility */
+
+[type="checkbox"]:not(:checked):focus + label:before {
+  border: 2px solid #97b2bf;
+}
+
+[type="checkbox"]:checked:focus + label:before {
+  border: 2px solid #f7921c;
+}
+
+/* hover style just for information */
+label:hover:before {
+  border: 2px solid #f7921c !important;
+}
+
+.gradient-btn {
+  width: 308px;
+  height: 38px;
+  color: white !important;
+  text-transform: uppercase;
+  background: linear-gradient(to right, #68318f, #ef4537, #f57e2a);
+  border: none;
+  font-size: 13px;
+  letter-spacing: 1.5px;
+  font-weight: bold;
+  margin-top: 20px;
+  font-style: normal !important;
+}
+
+@media screen and (max-width: 500px) {
+  .modal-gradient-background {
+    width: 100%;
+    margin: 0px;
+  }
+  .modal-div {
+    width: 100%;
+    height: 100%;
+  }
+  .my-modal-content {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    /* border: 1px solid firebrick; */
+  }
+  .modalr1,
+  .modalr2,
+  .modalr3,
+  .modalr4,
+  .modalr5,
+  .modalr6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* width: 100%; */
+  }
+  .modalr1 div,
+  .modalr2 div,
+  .modalr3 div,
+  .modalr4 div,
+  .modalr5 div,
+  .modalr6 div {
+    display: flex;
+    width: unset;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red;  */
+  }
+
+  .modalr2 p,
+  .modalr3 p,
+  .modalr4 p,
+  .modalr5 p {
+    align-self: flex-start;
+    margin-top: 5px;
+  }
+
+  .modalr6 p {
+    display: flex;
+    justify-content: center;
+  }
+
+  [type$="text"],
+  [type$="email"] {
+    width: 100%;
+  }
+  #Locations,
+  #Plans {
+    width: 100%;
+  }
+
+  [type="checkbox"]:not(:checked) + label,
+  [type="checkbox"]:checked + label {
+    padding-left: 1.5rem;
+    font-size: 10px;
+    width: 100%;
+  }
+
+  .gradient-btn {
+    width: 100%;
+  }
+}

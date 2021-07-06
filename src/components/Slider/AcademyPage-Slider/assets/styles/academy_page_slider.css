@@ -1,0 +1,410 @@
+/* PLANS PAGE SLIDER SECTION */
+@media only screen and (max-width: 400px) {
+  .c-heading {
+    font-size: 20px !important;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .a-points p {
+    font-size: 10px !important;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1400px) {
+  .ap-slider {
+    width: 100% !important;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  .ap-slider {
+    width: 100% !important;
+  }
+}
+
+@media only screen and (max-width: 767px) and (min-width: 320px) {
+  .ap-slider {
+    width: 100% !important;
+  }
+  .ap-slider > div {
+    /* width: 100%; */
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
+  .background {
+    margin-left: 0px !important;
+    width: 50% !important;
+  }
+  .ap-slider .slick-slide.slick-center {
+    /* margin-left: 150px; */
+    -ms-transform: scale(1) !important;
+    transform: scale(1) !important;
+    /* margin-right: 100px; */
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .ap-slider {
+    width: 100% !important;
+  }
+  .ap-slider > div {
+    /* width: 100%; */
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
+}
+
+@media only screen and (max-width: 560px) {
+  .background {
+    height: inherit !important;
+    max-width: 350px !important;
+    padding: 5px !important;
+  }
+}
+
+.ap-slider .slick-slide.slick-center {
+  /* margin-left: 150px; */
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+  /* margin-right: 100px; */
+}
+
+.c-logo img {
+  /* padding-top: 10px !important;
+  padding-left: 10px !important; */
+}
+
+.c-heading {
+  font-size: 27px;
+  color: #654ea3;
+  font-weight: 900 !important;
+  width: 90%;
+}
+
+.ap-slider > div {
+  /* width: 100%; */
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+/* .gap
+{
+  margin-left: 0px;
+} */
+/* .slick-slide {
+  margin: 40px;
+  margin-left: 30px;
+} */
+
+/* My New CSS for Slider */
+.background {
+  height: 100%;
+
+  background: white;
+  border-radius: 7px;
+  margin: 150px;
+  margin-left: 0px;
+  width: 350px !important;
+  padding: 10px;
+  display: flex;
+}
+.cards {
+  height: 100%;
+  /* width: inherit; */
+}
+
+.c-logo {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+.c-logo p {
+  margin-left: 5px;
+  font-size: 12px;
+  color: rgb(184, 179, 179);
+}
+
+.heading-class {
+  width: 70%;
+}
+
+.c-details {
+  margin: 20px;
+  /* overflow: hidden; */
+  height: 180px;
+  width: 90%;
+  padding-right: 15px;
+}
+
+.c-details:hover {
+  /* overflow-y: scroll; */
+}
+
+.card-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.card-price p {
+  color: black;
+  margin: 0 !important;
+}
+.c-divider {
+  height: 1px;
+  width: 300px;
+  background: lightgray;
+}
+.c-text {
+  width: 100%;
+  text-align: center;
+}
+.c-text p {
+  font-size: 14px;
+}
+.a-points {
+  display: flex;
+  /* justify-content: space-evenly; */
+  margin-bottom: 15px;
+}
+.p-align {
+  width: 40%;
+  white-space: 2px;
+}
+.a-points p {
+  font-size: 14px;
+  margin-left: 5px;
+  margin-bottom: 0 !important;
+}
+.c-points {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.c-btn {
+  height: 20px;
+  width: 100px !important;
+  background: linear-gradient(to right, #654ea3, #654ea3, #a17ab4);
+  border-radius: 5px;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  border-style: none !important;
+  border-width: 0px;
+  color: white;
+  font-weight: bold !important;
+  padding: 15px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.c-btn-rev .c-btn:hover {
+  background: linear-gradient(to right, #a17ab4, #654ea3, #654ea3);
+  color: white;
+}
+.c-btn-rev {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-top: #654ea3;
+  border-width: 0.5px;
+}
+
+/* New CSS for course list */
+
+.ap-course-background {
+  height: 600px;
+  width: 100%;
+  background: #fcf9ff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 40px;
+  /* padding: 10px 0px; */
+}
+
+.ap-course-heading {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+.ap-courses-div {
+  padding: 30px;
+  height: 650px;
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.ap-courses-list {
+  height: 65px;
+  /* width: 100% ; */
+  background: #ffffff;
+  margin: 10px;
+  margin-top: 0;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  /* padding: 10px; */
+  text-align: center;
+  align-items: center;
+  cursor: pointer;
+  -webkit-box-shadow: 0 0 10px 5px #f5f5f7;
+  -moz-box-shadow: 0 0 10px 5px #f5f5f7;
+  box-shadow: 0 0 10px 5px #f5f5f7;
+}
+.ap-c-list-div {
+  height: 300px;
+  width: 100%;
+  overflow: auto;
+  /* justify-content: space-between; */
+}
+.icon-col-size {
+  font-size: 25px !important;
+  color: #6b3590;
+}
+
+.icon-col-size:hover {
+  color: white;
+}
+.ap-courses-list:hover {
+  background: #6b3590;
+}
+.ap-courses-list:hover .course-icons-left .icon-col-size,
+.ap-courses-list:hover .course-arrow-right .icon-col-size,
+.ap-courses-list:hover .ap-c-l .ap-c-list-name {
+  color: #eeeeef;
+}
+.ap-courses-list div:hover {
+  background: #6b3590;
+  color: #eeeeef;
+  border-radius: 25px;
+}
+.a-qoate {
+  background: #f8f8f8;
+  padding: 15px;
+  width: 90%;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin: 10px;
+  margin-bottom: 100px;
+  border-radius: 10px;
+  box-shadow: 0 8px 4px -2px #f5f5f7;
+}
+.a-qoate img {
+  position: absolute;
+  margin-left: 100px;
+}
+.a-qoate div {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+}
+.a-qoate div p {
+  width: 90%;
+}
+.ap-c-list-name {
+  height: 100%;
+  width: 100%;
+  font-size: 20px;
+  font-weight: 900 !important;
+  letter-spacing: 1px;
+  color: #6b3590;
+  margin-bottom: 0;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin: 0;
+}
+.ap-course-details-bg {
+  height: 80%;
+  width: 40%;
+  background: #ffffff;
+
+  padding: 20px;
+  padding-top: 40px;
+  -webkit-box-shadow: 0 0 15px 10px #f5f5f7;
+  -moz-box-shadow: 0 0 15px 10px #f5f5f7;
+  box-shadow: 0 0 15px 10px #f5f5f7;
+  border-radius: 10px;
+}
+.a-s-bg {
+  height: 100%;
+  width: 100%;
+  background: #ffffff;
+}
+.course-icons-left {
+  margin-left: 45px;
+}
+.course-arrow-right {
+  margin-right: 45px;
+}
+.as-header {
+  height: 140px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.mi-btn {
+  background: #f3f1f1 !important;
+  color: #9400d3 !important;
+}
+.mi-btn:hover {
+  background: #a5a4a4 !important;
+  color: #661e85 !important ;
+}
+
+@media only screen and (max-width: 900px) {
+  .mi-btn {
+    /* height: 50px !important; */
+    /* padding: 0px !important; */
+  }
+  .c-heading {
+    font-size: 25px;
+  }
+  .ap-course-background {
+    height: 1400px !important;
+    width: 100%;
+    overflow: auto;
+  }
+  .ap-course-details-bg {
+    height: 550px;
+    width: 80%;
+  }
+  .a-qoate img {
+    margin-top: 20px;
+    margin-left: 50px;
+  }
+  .ap-c-list-div {
+    height: 100% !important;
+    width: 100%;
+  }
+  .ap-courses-div {
+    padding: 30px;
+    /* height: 100%; */
+    width: 80%;
+  }
+
+  .ap-c-list-name {
+    font-size: 15px !important;
+  }
+  .c-btn {
+    height: 15px;
+    width: 80px !important;
+    font-size: 12px !important;
+  }
+
+  .icon-left {
+    margin-left: 5px;
+  }
+  .c-divider {
+    width: 150px;
+  }
+}

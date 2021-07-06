@@ -1,0 +1,316 @@
+/* PLANS PAGE SLIDER SECTION */
+@media only screen and (min-width: 768px) and (max-width: 2000px) {
+}
+
+@media only screen and (max-width: 767px) and (min-width: 320px) {
+}
+@media only screen and (max-width: 450px) {
+}
+
+@media only screen and (min-width: 1500px) {
+  .welcome-section1 {
+    /* margin-bottom: 150px; */
+    height: 100%;
+    width: 10%;
+    margin-left: 0px;
+    padding-left: 0px;
+    justify-content: center;
+    align-items: center;
+  }
+  .welcome-image img {
+    display: none;
+  }
+  .welcome-content {
+    height: 100%;
+    width: 20% !important;
+    /* margin-left: -150px; */
+    padding-left: 0px;
+  }
+  .learn-section {
+    height: 100% !important;
+    width: 100% !important;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .learn-content {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+  .cards {
+    /* display: flex; */
+    width: 100% !important;
+    justify-content: center;
+    align-items: center;
+  }
+  .card-align {
+    width: 50% !important;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+/* welcome section styles */
+.welcome-section1 {
+  /* margin-bottom: 150px; */
+  height: inherit;
+  width: inherit;
+  /* margin-left: 100px; */
+  margin-top: 80px;
+  padding-left: 100px;
+  display: flex;
+  /* justify-content: center;
+    align-items: center; */
+}
+
+.welcome-image img {
+  height: 100% !important;
+  background-size: cover;
+  border-radius: 20px;
+  position: absolute;
+  z-index: 1;
+  background-repeat: no-repeat;
+  width: inherit;
+  margin-left: 70px;
+  position: absolute;
+}
+.w-img {
+  height: inherit !important;
+  width: inherit !important;
+}
+
+@media only screen and (max-width: 786px) {
+  .welcome-section1 {
+    /* margin-bottom: 150px; */
+    /* height: inherit; */
+    padding: 100px;
+    padding-top: 200px;
+    /* display: flex; */
+  }
+  .welcome-image {
+    height: inherit !important;
+    width: 80%;
+    position: absolute;
+    z-index: -1;
+    top: 2200px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-size: cover;
+    border-radius: 30px 30px 0px 0px;
+    background-color: white;
+    background-blend-mode: overlay;
+    background-attachment: fixed;
+    opacity: 0.8;
+  }
+  .welcome-content h1 {
+    /* background: red; */
+    color: white !important;
+  }
+}
+
+.welcome-content {
+  height: 100%;
+  width: 50%;
+  /* margin-left: 80px; */
+}
+.welcome-content h1 {
+  /* background: red; */
+  color: #53255f;
+  letter-spacing: 2px;
+
+  /* margin-top: 20px; */
+  font-size: 42px;
+  font-weight: bold !important;
+  margin-bottom: 20px;
+}
+@media only screen and (max-width: 560px) {
+  .welcome-content h1 {
+    font-size: 25px !important;
+    font-weight: bold;
+  }
+  .learn-heading {
+    font-size: 25px !important;
+  }
+  .welcome-content {
+    height: 100%;
+    width: 110%;
+    padding: 0px;
+  }
+  .welcome-section1 {
+    margin-top: 80px;
+    padding-left: 45px;
+    display: flex;
+  }
+  .welcome-image img {
+    margin-left: 40px;
+  }
+  .learn-content {
+    padding: 20px !important;
+  }
+  .card {
+    /* height:100% !important ; */
+    /* width: 100% !important; */
+  }
+  .cards {
+    height: 100% !important;
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 1105px) {
+  .welcome-section .img-area1 {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("../images/welcome image.jpg") !important;
+    right: -80px;
+    flex: auto;
+    position: absolute;
+    overflow: hidden;
+    border-radius: 20px;
+    width: 420px;
+    height: 625px;
+  }
+  .welcome-section .img-area1 img {
+    display: none;
+  }
+  .welcome-section .title-area .font {
+    font-size: 60px !important;
+  }
+}
+@media only screen and (max-width: 1104px) {
+  .welcome-section .img-area1 img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  .welcome-section .top-area {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .welcome-section .img-area1 {
+    border-radius: 20px 20px 0 0 !important;
+    left: 0 !important;
+    top: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    /* background-color: rgba(255, 255, 255, 0.472); */
+    background-blend-mode: overlay;
+    background-attachment: fixed;
+  }
+
+  .welcome-section .title-area .font {
+    font-size: 60px !important;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .welcome-section .title-area .font {
+    font-size: 40px !important;
+  }
+}
+@media only screen and (max-width: 1110px) {
+  .welcome-content h1 {
+    font-size: 40px !important;
+    font-weight: bold;
+  }
+  .learn-heading {
+    font-size: 20px;
+  }
+}
+.welcome-content p {
+  text-align: justify;
+  font-size: 18px;
+  letter-spacing: 2px;
+  width: 100%;
+  font-weight: 100;
+}
+.learn-section {
+  background: #fafafa;
+}
+.learn-heading {
+  font-size: 35px;
+}
+/* learn section styling */
+.learn-section {
+  height: inherit;
+  width: 100%;
+
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.l-content-div {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  padding-top: 30px;
+}
+.learn-content {
+  /*  padding: 10px 0px 10px 100px; */
+  width: 80%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.learn-content h1 {
+  letter-spacing: 2px;
+  font-weight: 900;
+  font-size: 25px;
+}
+.learn-content p {
+  font-size: 20px;
+  color: #707070;
+  letter-spacing: 1px;
+}
+.cards {
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.a-sliderr {
+  height: 100%;
+  width: 100%;
+  /* margin-bottom: 20px; */
+}
+.card {
+  width: 140px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 30px;
+  padding-top: 40px;
+  padding-bottom: 50px;
+  border-radius: 15px !important;
+  background: white;
+  margin: 25px;
+  margin-top: 0px;
+  box-shadow: 3px 3px 10px #a39d9d !important;
+}
+.card p {
+  font-size: 22px;
+  color: #3f3b3b;
+}
+.card h3 {
+  font-size: 18px;
+  /* margin:30px; */
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+.card-align {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.a-hero {
+  margin-top: 60px;
+}

@@ -1,0 +1,32 @@
+.pay-container
+{
+    height: 100%;
+    width: 100%;
+    /* padding-bottom: 20px; */
+}
+.pay-page-div
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: #F5F4F4;
+    margin-top: 50px !important;
+    padding: 20px;
+
+    
+}
+.ssize
+{
+    height: 250px !important;
+    width: 300px !important;
+}
+@media only screen and (max-width:368px)
+{
+    .ssize
+{
+    height: 200px !important;
+    width: 270px !important;
+}
+}

@@ -1,0 +1,395 @@
+.hero-right-planspage {
+  margin-top: 32px !important;
+  max-width: 506px;
+  animation-duration: 80s;
+  animation-delay: 0s;
+  animation-name: slide_hero_to_left;
+  animation-timing-function: ease-in-out;
+}
+
+@media only screen and (min-width: 320px) {
+  .filter-btn-active .tooltip-text,
+  .filter-btn-inactive .tooltip-text {
+    left: 34.5% !important;
+  }
+  .right .hero-right-planspage {
+    margin-top: 32px !important;
+    max-width: 400px;
+    animation-duration: 80s;
+    animation-delay: 0s;
+    animation-name: slide_hero_to_left;
+    animation-timing-function: ease-in-out;
+  }
+
+  .hero-right-planspage h1 {
+    font-size: 50px !important;
+  }
+}
+
+/* Location and Plans */
+.locations-and-plans-title-area {
+  display: flex;
+  justify-content: center;
+}
+.locations-and-plans-title-area p {
+  padding: 0 !important;
+}
+.locations-and-plans-title-area h1 {
+  font-size: 108px;
+  font-weight: bold;
+}
+.planSlider-outer-div {
+  /* border: 1px solid royalblue; */
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.color-primary {
+  color: #c1242b;
+}
+.wrap-mini {
+  position: relative;
+}
+.div-signature {
+  position: absolute;
+  top: 79%;
+  margin-left: 50%;
+  padding-left: 20px;
+  justify-items: normal;
+  /* widows: 10px; */
+  width: 10%;
+  height: 20px;
+  left: 12%;
+  /* z-index: -1; */
+}
+.locations-and-plans-filter-button-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  /* border: 2px solid green; */
+  flex-wrap: wrap;
+}
+.locations-and-plans-filter-button-area button {
+  flex: 0.15;
+  width: 100%;
+  display: flex;
+}
+.filter-btn-active {
+  background-color: #555855;
+  border: none;
+  color: white;
+  /* padding: 15px 32px; */
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 5px;
+  border-radius: 8px;
+  height: 50px;
+  width: 150px;
+}
+.filter-btn-active:focus {
+  outline: none;
+  box-shadow: none;
+}
+.filter-btn-active:hover {
+  background: #c1242b;
+}
+
+.filter-btn-inactive {
+  background-color: gray; /* Green */
+  border: none;
+  color: white;
+  /* padding: 15px 32px; */
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 5px;
+  border-radius: 8px;
+  /* z-index: -1; */
+  height: 50px;
+  width: 150px;
+  opacity: 0.7;
+}
+.filter-btn-active .tooltip-text,
+.filter-btn-inactive .tooltip-text {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0px;
+  position: absolute;
+  z-index: 1;
+  left: 60%;
+  margin-left: -5px;
+  margin-top: 45px;
+}
+.too {
+  display: none;
+}
+.filter-btn-active .tooltip-text::after,
+.filter-btn-inactive .tooltip-text::after {
+  content: "";
+  position: absolute;
+  margin-left: -5px;
+  left: 50%;
+  bottom: 100%;
+  border-style: solid;
+  border-width: 5px;
+  border-color: transparent transparent black transparent;
+}
+.filter-btn-inactive:hover .tooltip-text,
+.filter-btn-active:hover .tooltip-text {
+  visibility: visible;
+}
+.filter-btn-inactive:hover {
+  background: #c1242b;
+}
+.hover-text {
+  display: none;
+}
+.filter-btn-inactive:focus {
+  outline: none;
+  box-shadow: none;
+}
+.locations-and-plans-filter-button-area-module {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+.welcome-section {
+  width: 100%;
+  /* border: 1px solid seagreen; */
+}
+/* .wrapper{
+  width: 100%;
+  border: 1px solid black;
+} */
+
+/* FAQS SECTION */
+.faq-section {
+  margin-top: 90px;
+  width: 100%;
+  /* height: fit-content; */
+  padding-top: 30px;
+  /* border: 5px solid green; */
+}
+.faq-wrapper {
+  min-height: 600px;
+  max-width: fit-content !important;
+  margin: -40px auto 30px auto;
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.faq-wrapper h1 {
+  text-align: center;
+  font-size: 108px;
+  font-weight: bold;
+}
+.faq-wrapper p {
+  padding: 0 !important;
+  text-align: justify;
+}
+.bullets-wrapper {
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  /* background-color: red; */
+}
+
+.faq-text:hover {
+  text-decoration: underline;
+  text-decoration-color: #c1242b;
+}
+
+.bullets-left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.bullets-left p {
+  display: flex;
+  align-items: center;
+}
+.bullets-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.bullets-right p {
+  display: flex;
+  align-items: center;
+}
+
+/* Our amenities */
+.our-amenities-section {
+  width: 100%;
+  /* height: 700px; */
+  margin: 120px auto;
+  /* background-color: red; */
+}
+
+.our-amenities-content-area {
+  /* background-color: green; */
+  height: 90%;
+  margin: 0px auto;
+  /* border: 1px solid rebeccapurple; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.amenities-title {
+  text-align: center;
+}
+
+.amenities-title h1 {
+  font-size: 108px !important;
+  font-weight: bold;
+}
+.faq-main-div {
+  width: 40%;
+  /* border: 1px solid darkorange; */
+}
+.bullets-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 600px) {
+  .faq-main-div {
+    width: 100%;
+    /* border: 1px solid red; */
+  }
+  .bullets-wrapper {
+    /* border: 1px solid green; */
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+
+/* PLANS PAGE MEDIA QUIRIES */
+
+@media only screen and (max-width: 426px) {
+  /* LOCATION AND PLANS */
+  .locations-and-plans-title-area h1 {
+    font-size: 70px !important;
+  }
+  .faq-main-div {
+    width: 100%;
+    /* border: 1px solid red; */
+  }
+  .bullets-wrapper {
+    /* border: 1px solid green; */
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  /* FAQ */
+  .faq-wrapper p {
+    padding: 10px !important;
+    text-align: center;
+    line-height: 1.5em;
+  }
+  .bullets-wrapper {
+    flex-direction: row;
+    /* height: 500px; */
+  }
+  .bullets-left {
+    height: 100%;
+    justify-content: space-evenly;
+  }
+  .bullets-right {
+    height: 100%;
+    justify-content: space-evenly;
+  }
+
+  /* AMINITIES */
+  .amenities-title h1 {
+    font-size: 70px !important ;
+  }
+  .faq-main-div {
+    width: 100%;
+    /* border: 1px solid red; */
+  }
+  .bullets-wrapper {
+    /* border: 1px solid green; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+}
+@media only screen and (max-width: 375px) {
+  /* LOCATION AND PLANS */
+  .locations-and-plans-title-area h1 {
+    font-size: 60px !important;
+  }
+  .faq-main-div {
+    width: 100%;
+    /* border: 1px solid red; */
+  }
+  .bullets-wrapper {
+    /* border: 1px solid green; */
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  /* AMENITIES */
+  .amenities-title h1 {
+    font-size: 60px !important ;
+  }
+}
+@media only screen and (max-width: 320px) {
+  /* LOCATION AND PLANS */
+  .locations-and-plans-title-area h1 {
+    font-size: 50px !important;
+  }
+
+  /* AMENITIES */
+  .amenities-title h1 {
+    font-size: 50px !important ;
+  }
+  .faq-main-div {
+    width: 100%;
+    /* border: 1px solid red; */
+  }
+  .bullets-wrapper {
+    /* border: 1px solid green; */
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
