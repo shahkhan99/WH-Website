@@ -13,6 +13,7 @@ import IndividualDashboard from "../screens/AdminPage/Individual";
 import BlogPage from "../screens/BlogPage/index";
 import CFOPage from "../screens/CFOPage/index";
 import MerchProduct from "../screens/MerchProduct/productPage";
+import AppSignUp from "../components/AppSignUpPage/index";
 
 export {
   LandingPage,
@@ -29,4 +30,5 @@ export {
   BlogPage,
   CFOPage,
   MerchProduct,
+  AppSignUp,
 };

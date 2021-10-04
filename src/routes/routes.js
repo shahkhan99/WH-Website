@@ -18,6 +18,7 @@ import {
   BlogPage,
   CFOPage,
   MerchProduct,
+  AppSignUp,
 } from "./index";
 
 let Routes = () => {
@@ -38,6 +39,7 @@ let Routes = () => {
         <Route path="/blogs/:id" component={BlogPage} />
         <Route path="/@dm!n/login" component={AdminLogin} />
         <Route path="/cfo" component={CFOPage} />
+        <Route path="/app_Signup" component={AppSignUp} />
 
         <ProtectedRoute path="/@dm!n" component={IndividualDashboard} />
       </Switch>
